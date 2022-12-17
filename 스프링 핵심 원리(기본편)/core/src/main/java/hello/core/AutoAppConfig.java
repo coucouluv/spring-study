@@ -13,8 +13,8 @@ import org.springframework.context.annotation.FilterType;
 )
 //@Component 애노테이션이 붙은 애들 자동으로 스캔
 public class AutoAppConfig {
-    @Bean(name = "memoryMemberRepository")
+    /*@Bean(name = "memoryMemberRepository")
     MemberRepository memberRepository() {
         return new MemoryMemberRepository();
-    }
+    }*/
 }
