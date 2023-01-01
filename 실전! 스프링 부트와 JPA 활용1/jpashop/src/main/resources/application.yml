@@ -6,7 +6,9 @@ spring: #띄어쓰기 없음
       # OR jdbc-url: jdbc:h2:tcp://localhost:9092/./data/testdb
       username: sa
       password:
-
+  thymeleaf:
+  prefix: classpath:/templates/
+  suffix: .html
 #  datasource: #띄어쓰기 2칸
 #    url: jdbc:h2:tcp://localhost/~/jpashop;MVCC=TRUE #4칸
 #  username: sa
@@ -25,3 +27,4 @@ logging.level: #띄어쓰기 없음
   org.hibernate.SQL: debug #띄어쓰기 2칸
   org.hibernate.type: trace
 # org.hibernate.type: trace #띄어쓰기 2칸
+
